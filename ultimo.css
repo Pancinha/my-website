@@ -1,0 +1,252 @@
+.foto{
+display: flex;
+flex-direction: column;
+margin: auto;
+align-items: center;
+background-image:url(app);
+background-position: right;
+
+background-size: auto;
+margin-top: 0px;
+
+
+}
+img{
+    width: 150px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto 15px auto;
+
+}
+/*H1 Rafael Pancinha*/
+h1{
+    display: flex;
+    flex-direction: column;
+    margin: auto auto 740px auto;
+    align-items: center;
+    font-size: 35px;
+    color: black;
+    background: linear-gradient(100deg,  #ffffff, #ffffffba, #ffffffa3, #ffffff82, #ffffffad);
+}
+
+    
+
+
+
+
+
+
+
+/*SOBRE  E OUTROS H2*/
+h2{
+    
+    font-size: 1.50em;
+    display: flex;
+    flex-direction: column;
+    margin: 35px auto 10px;
+    align-items: center;
+    font-family: Georgia, "Times New Roman", Times;
+    font-style: italic;
+}
+#contsobre{
+	display: flex;
+    flex-direction: column;
+    margin: 10px 30px auto 30px;
+    text-align: left;
+  
+}
+
+#contesco{
+	display: flex;
+    flex-direction: column;
+    margin: 10px 30px auto 30px;
+    text-align: left;
+}
+
+#contcon{
+	margin-top: 0;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: auto;
+}
+#contpreten{
+	display: flex;
+	flex-direction: column;
+	margin: 10px 30px auto 30px;
+	text-align: left;
+
+}
+#nova{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: auto;
+    margin-top: 15px;
+
+
+
+}
+h3{
+	font-size: larger;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin: 45px auto 20px auto;
+    align-items: center;
+}
+body{
+
+    font-family:serif;
+    font-size: normal;
+    font-weight: 400;
+    line-height: unset;
+
+   
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto 90px auto;
+    text-align: center;
+
+}
+#oscontatos{
+width: 90px;
+
+
+
+
+}
+.fb{
+    background-color: blue;
+    background-size:     
+}
+
+
+div h7{
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    margin: 60px auto 0px auto;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+   margin-top: 60px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 0px;
+    align-items: center;
+}
+
+
+.btn-primary{
+background: blue;
+color: white;
+}
+#bota2{
+    background: #45ca45;
+    color: white;
+    border-color: transparent;
+}
+
+#bota3{
+    background: #ff6e08;
+    color: white;
+    border-color: transparent;
+}
+
+
+.desenvolvido{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.email{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10px;
+
+}
+ 
+
+ @media (min-width: 586px){
+
+    #contsobre{
+       flex-direction: row;
+       text-align: left;
+       margin: 20px 150px auto 150px;
+    }
+
+    body{
+
+        font-size: larger;
+
+    }
+
+    #contesco{
+        margin: 20px 150px auto 150px;
+    }
+ 
+    #contcon{
+        margin: 20px 150px auto 150px;
+    }
+
+
+    #contpreten{
+        margin: 20px 150px auto 150px;
+    }
+
+    img{
+        width: 180px;
+    }
+
+
+    h1{
+        
+
+
+
+    }
+ .foto{
+    background-size: cover;
+    background-image:url(https://blog.wpensar.com.br/wp-content/uploads/2016/02/arte-tecnologia-educacao-3.png);
+    background-position: center;
+}
+
+
+
+
+
+
+
+
+ }
+
+ #nova{
+
+
+    margin: 20px 150px auto 150px;
+ }
+h2{
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+ }
