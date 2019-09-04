@@ -1,35 +1,71 @@
 .foto{
-display: flex;
 flex-direction: column;
-margin: auto;
-align-items: center;
-background-image:url(app);
-background-position: right;
 
 background-size: auto;
-margin-top: 0px;
+
+
+
+}
+.oscontatos{
 
 
 }
 img{
-    width: 150px;
-    border-radius: 50%;
     display: flex;
     flex-direction: column;
-    margin: 50px auto 15px auto;
+    margin: 85px auto 15px auto;
+    align-items: center;
+    width: 150px;
+    border-radius: 50%;
+}
+
+
+.fundo{
+    background-image: url(app);
+    display: flex;
+    flex-direction: column;
+    background-repeat: round;
+}
+h3{
+    display: flex;
+    flex-direction: column;
+    margin: 45px auto 15px auto;
+    align-items: center;
+}
+footer .centro{
+    text-align: center;
 
 }
+
+
+
+
+
+
+
 /*H1 Rafael Pancinha*/
 h1{
     display: flex;
     flex-direction: column;
-    margin: auto auto 740px auto;
     align-items: center;
     font-size: 35px;
     color: black;
-    background: linear-gradient(100deg,  #ffffff, #ffffffba, #ffffffa3, #ffffff82, #ffffffad);
+    margin: auto auto 700px auto;
+    background: linear-gradient(45deg, #ffffff5c, #ffffff85, #ffffffc7, #ffffff54);
 }
 
+
+
+
+
+
+
+ul{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: left;
+}
     
 
 
@@ -79,49 +115,34 @@ h2{
 	text-align: left;
 
 }
-#nova{
-    margin-top: 0;
+.escola{
+    margin-top: 15px;
     margin-bottom: 1rem;
     display: flex;
     flex-direction: column;
     text-align: left;
-    margin: auto;
-    margin-top: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 20px;
+}
 
 
+    
 
 }
-h3{
-	font-size: larger;
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    margin: 45px auto 20px auto;
-    align-items: center;
-}
+
+
 body{
 
     font-family:serif;
     font-size: normal;
     font-weight: 400;
     line-height: unset;
-
-   
-}
-footer{
-    display: flex;
-    flex-direction: column;
-    margin: 30px auto 90px auto;
-    text-align: center;
-
-}
-#oscontatos{
-width: 90px;
+    margin: 0px;
+   }
+     
 
 
-
-
-}
 .fb{
     background-color: blue;
     background-size:     
@@ -135,41 +156,60 @@ div h7{
     margin: 60px auto 0px auto;
 
 }
-.container{
-    display: flex;
-    flex-direction: column;
-   margin-top: 60px;
-   margin-left: auto;
-   margin-right: auto;
-   margin-bottom: 0px;
-    align-items: center;
-}
+
 
 
 .btn-primary{
-background: blue;
-color: white;
+    background: #45ca45;
+    color: white
+    border: outset;
+    border-color: #10e610;
+    text-decoration: none;
+    margin: 15px auto auto auto;
+    text-align: center;
+
+}
+    
+.oscontatos{
+    text-align: center;
+
+}
+.btn-primary{
+    background-color: #3171b5;
+    color: white;
+    border: solid;
+    border-color: #0061af;
 }
 #bota2{
-    background: #45ca45;
-    color: white;
-    border-color: transparent;
+   background: #05d005;
+    color: white
+    border: outset;
+    border-color: #00ab00;
+    text-decoration: none;
+    margin: 15px auto auto auto;
+    text-align: center;
 }
 
 #bota3{
-    background: #ff6e08;
+    background: #f7a222;
     color: white;
-    border-color: transparent;
+    border: outset;
+    border-color: #ff9528;
+    text-decoration: none;
+    margin: 15px auto auto auto;
+    text-align: center;
 }
 
 
 .desenvolvido{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     text-align: center;
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 25px;
+    font-size: x-small;
 }
 .email{
     display: flex;
@@ -180,7 +220,20 @@ color: white;
 }
  
 
+ 
+
+
+
+
  @media (min-width: 586px){
+
+    img{
+        width: 300px;
+
+    }
+    h1{
+        font-size: 45px;
+    }
 
     #contsobre{
        flex-direction: row;
@@ -191,62 +244,105 @@ color: white;
     body{
 
         font-size: larger;
+        margin: 0px;
 
     }
+
+
+
 
     #contesco{
-        margin: 20px 150px auto 150px;
+        
+        flex-direction: row;
+       text-align: left;
+       margin: 20px 150px auto 150px;
     }
  
+  
+
+
+
+
     #contcon{
         margin: 20px 150px auto 150px;
     }
+
+
+  
+
 
 
     #contpreten{
         margin: 20px 150px auto 150px;
     }
 
+   
+
+
+
     img{
         width: 180px;
+        margin: 70px auto auto auto;
+    }
+   
+
+
+
+
+    .escola{
+       text-align: left;
+        margin: 20px 150px auto 150px;
+       
     }
 
 
     h1{
+        margin: 25px auto 525px auto;
         
 
-
-
-    }
- .foto{
-    background-size: cover;
-    background-image:url(https://blog.wpensar.com.br/wp-content/uploads/2016/02/arte-tecnologia-educacao-3.png);
-    background-position: center;
 }
 
 
 
 
-
-
-
-
- }
+ .foto{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 150vw;
+   
+}
 
  #nova{
-
-
     margin: 20px 150px auto 150px;
  }
+
+
 h2{
     margin-top: 50px;
 }
 
 
+.desenvolvido{
+    font-size: medium;
+}
+
+
+
+.fundo{
+    background-size: cover;
+    background-position: top;
+}
 
 
 
 
 
 
- }
+
+
+
+
+
+}
