@@ -22,7 +22,7 @@ img{
 
 /*imagem de fundo*/
 .fundo{
-    background-image: app;
+    background-image: url ("https://github.com/Pancinha/my-website/blob/master/app");
     display: flex;
     flex-direction: column;
     background-repeat: round;
