@@ -22,7 +22,7 @@ img{
 
 /*imagem de fundo*/
 .fundo{
-    background-image: url ("https://github.com/Pancinha/my-website/blob/master/app");
+    background-image: url ("https://image.freepik.com/vetores-gratis/circuito-azul-cyber-futuro-fundo-de-conceito-de-tecnologia_42077-1794.jpg");
     display: flex;
     flex-direction: column;
     background-repeat: round;
