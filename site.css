@@ -22,7 +22,7 @@ img{
 
 /*imagem de fundo*/
 .fundo{
-    background-color: grey;
+    background-image: app;
     display: flex;
     flex-direction: column;
     background-repeat: round;
