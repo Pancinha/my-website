@@ -22,17 +22,10 @@ img{
 
 /*imagem de fundo*/
 .fundo{
-    background-image: url(app);
+    background-color: grey;
     display: flex;
     flex-direction: column;
     background-repeat: round;
-
-}b.fundo{
-    background-image: url(app);
-    display: flex;
-    flex-direction: column;
-    background-repeat: round;
-
 }
 h3{
     display: flex;
