@@ -10,6 +10,7 @@ background-size: auto;
 
 
 }
+/*foto perfil*/
 img{
     display: flex;
     flex-direction: column;
@@ -19,12 +20,12 @@ img{
     border-radius: 50%;
 }
 
-
+/*imagem de fundo*/
 .fundo{
-    background-image: url(app);
-    display: flex;
-    flex-direction: column;
-    background-repeat: round;
+    height: 100vh;
+    padding: 2vw;
+    font-size: 4vw;
+	img{opacity : 0.5}
 }
 h3{
     display: flex;
